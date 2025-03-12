@@ -273,6 +273,7 @@ export default function CustomMenu() {
                         type="number"
                         min="0"
                         max="20"
+                        defaultValue={currentFormVals.saltPercentage}
                         {...register(`result.${selectedItem}.saltPercentage`)}
                         className="w-full border p-2 rounded"
                     />
